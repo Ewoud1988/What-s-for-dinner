@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E07CC1E26A0D43A00D2D0D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E07CC1D26A0D43A00D2D0D0 /* AppDelegate.swift */; };
+		4E07CC2026A0D43A00D2D0D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E07CC1F26A0D43A00D2D0D0 /* ViewController.swift */; };
+		4E07CC2326A0D43A00D2D0D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E07CC2126A0D43A00D2D0D0 /* Main.storyboard */; };
+		4E07CC2626A0D43A00D2D0D0 /* What_s_for_dinner_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E07CC2426A0D43A00D2D0D0 /* What_s_for_dinner_.xcdatamodeld */; };
+		4E07CC2826A0D43B00D2D0D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E07CC2726A0D43B00D2D0D0 /* Assets.xcassets */; };
+		4E07CC2B26A0D43B00D2D0D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E07CC2926A0D43B00D2D0D0 /* LaunchScreen.storyboard */; };
+		4E07CC3626A0D43B00D2D0D0 /* What_s_for_dinner_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E07CC3526A0D43B00D2D0D0 /* What_s_for_dinner_Tests.swift */; };
+		4E07CC4426A0D4E900D2D0D0 /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E07CC4326A0D4E900D2D0D0 /* GroceryItem.swift */; };
+		75A09946C7B5127CB2087F32 /* Pods_What_s_for_dinner_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9943CEAE28FCD5C1AE956ECD /* Pods_What_s_for_dinner_.framework */; };
+		9C39CCE14CEB5886E37BE5A7 /* Pods_What_s_for_dinner_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E71BDA5950FDAD281D50C41 /* Pods_What_s_for_dinner_Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E07CC3226A0D43B00D2D0D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E07CC1226A0D43A00D2D0D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E07CC1926A0D43A00D2D0D0;
+			remoteInfo = "What's for dinner?";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15CC4DB3A4F8FC4D4ACC2EF8 /* Pods-What's for dinner?.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-What's for dinner?.debug.xcconfig"; path = "Target Support Files/Pods-What's for dinner?/Pods-What's for dinner?.debug.xcconfig"; sourceTree = "<group>"; };
+		306AA66E7780D9AEC77AC7F1 /* Pods-What's for dinner?Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-What's for dinner?Tests.debug.xcconfig"; path = "Target Support Files/Pods-What's for dinner?Tests/Pods-What's for dinner?Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E07CC1A26A0D43A00D2D0D0 /* What's for dinner?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What's for dinner?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E07CC1D26A0D43A00D2D0D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E07CC1F26A0D43A00D2D0D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E07CC2226A0D43A00D2D0D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E07CC2526A0D43A00D2D0D0 /* What_s_for_dinner_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = What_s_for_dinner_.xcdatamodel; sourceTree = "<group>"; };
+		4E07CC2726A0D43B00D2D0D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E07CC2A26A0D43B00D2D0D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E07CC2C26A0D43B00D2D0D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E07CC3126A0D43B00D2D0D0 /* What's for dinner?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "What's for dinner?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E07CC3526A0D43B00D2D0D0 /* What_s_for_dinner_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What_s_for_dinner_Tests.swift; sourceTree = "<group>"; };
+		4E07CC3726A0D43B00D2D0D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E07CC4326A0D4E900D2D0D0 /* GroceryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItem.swift; sourceTree = "<group>"; };
+		5E71BDA5950FDAD281D50C41 /* Pods_What_s_for_dinner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_What_s_for_dinner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9943CEAE28FCD5C1AE956ECD /* Pods_What_s_for_dinner_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_What_s_for_dinner_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76E80ABE265C044ADBC9A91 /* Pods-What's for dinner?Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-What's for dinner?Tests.release.xcconfig"; path = "Target Support Files/Pods-What's for dinner?Tests/Pods-What's for dinner?Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C747EE88E04F49504CBA994F /* Pods-What's for dinner?.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-What's for dinner?.release.xcconfig"; path = "Target Support Files/Pods-What's for dinner?/Pods-What's for dinner?.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E07CC1726A0D43A00D2D0D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A09946C7B5127CB2087F32 /* Pods_What_s_for_dinner_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E07CC2E26A0D43B00D2D0D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C39CCE14CEB5886E37BE5A7 /* Pods_What_s_for_dinner_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49CF9A21486459AFBE82491A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15CC4DB3A4F8FC4D4ACC2EF8 /* Pods-What's for dinner?.debug.xcconfig */,
+				C747EE88E04F49504CBA994F /* Pods-What's for dinner?.release.xcconfig */,
+				306AA66E7780D9AEC77AC7F1 /* Pods-What's for dinner?Tests.debug.xcconfig */,
+				A76E80ABE265C044ADBC9A91 /* Pods-What's for dinner?Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4E07CC1126A0D43A00D2D0D0 = {
+			isa = PBXGroup;
+			children = (
+				4E07CC1C26A0D43A00D2D0D0 /* What's for dinner? */,
+				4E07CC3426A0D43B00D2D0D0 /* What's for dinner?Tests */,
+				4E07CC1B26A0D43A00D2D0D0 /* Products */,
+				49CF9A21486459AFBE82491A /* Pods */,
+				E1C424D5215A68643BA1E591 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E07CC1B26A0D43A00D2D0D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E07CC1A26A0D43A00D2D0D0 /* What's for dinner?.app */,
+				4E07CC3126A0D43B00D2D0D0 /* What's for dinner?Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E07CC1C26A0D43A00D2D0D0 /* What's for dinner? */ = {
+			isa = PBXGroup;
+			children = (
+				4E07CC4226A0D4D500D2D0D0 /* Views */,
+				4E07CC4126A0D4CF00D2D0D0 /* ViewModels */,
+				4E07CC4026A0D4C900D2D0D0 /* Models */,
+				4E07CC1D26A0D43A00D2D0D0 /* AppDelegate.swift */,
+				4E07CC1F26A0D43A00D2D0D0 /* ViewController.swift */,
+				4E07CC2126A0D43A00D2D0D0 /* Main.storyboard */,
+				4E07CC2726A0D43B00D2D0D0 /* Assets.xcassets */,
+				4E07CC2926A0D43B00D2D0D0 /* LaunchScreen.storyboard */,
+				4E07CC2C26A0D43B00D2D0D0 /* Info.plist */,
+				4E07CC2426A0D43A00D2D0D0 /* What_s_for_dinner_.xcdatamodeld */,
+			);
+			path = "What's for dinner?";
+			sourceTree = "<group>";
+		};
+		4E07CC3426A0D43B00D2D0D0 /* What's for dinner?Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4E07CC3526A0D43B00D2D0D0 /* What_s_for_dinner_Tests.swift */,
+				4E07CC3726A0D43B00D2D0D0 /* Info.plist */,
+			);
+			path = "What's for dinner?Tests";
+			sourceTree = "<group>";
+		};
+		4E07CC4026A0D4C900D2D0D0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4E07CC4326A0D4E900D2D0D0 /* GroceryItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4E07CC4126A0D4CF00D2D0D0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4E07CC4226A0D4D500D2D0D0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E1C424D5215A68643BA1E591 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9943CEAE28FCD5C1AE956ECD /* Pods_What_s_for_dinner_.framework */,
+				5E71BDA5950FDAD281D50C41 /* Pods_What_s_for_dinner_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E07CC1926A0D43A00D2D0D0 /* What's for dinner? */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E07CC3A26A0D43B00D2D0D0 /* Build configuration list for PBXNativeTarget "What's for dinner?" */;
+			buildPhases = (
+				A9D78E82A507CC0C0D5949EF /* [CP] Check Pods Manifest.lock */,
+				4E07CC1626A0D43A00D2D0D0 /* Sources */,
+				4E07CC1726A0D43A00D2D0D0 /* Frameworks */,
+				4E07CC1826A0D43A00D2D0D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "What's for dinner?";
+			productName = "What's for dinner?";
+			productReference = 4E07CC1A26A0D43A00D2D0D0 /* What's for dinner?.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E07CC3026A0D43B00D2D0D0 /* What's for dinner?Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E07CC3D26A0D43B00D2D0D0 /* Build configuration list for PBXNativeTarget "What's for dinner?Tests" */;
+			buildPhases = (
+				DECCFC74B2C045A6BC0E5A73 /* [CP] Check Pods Manifest.lock */,
+				4E07CC2D26A0D43B00D2D0D0 /* Sources */,
+				4E07CC2E26A0D43B00D2D0D0 /* Frameworks */,
+				4E07CC2F26A0D43B00D2D0D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E07CC3326A0D43B00D2D0D0 /* PBXTargetDependency */,
+			);
+			name = "What's for dinner?Tests";
+			productName = "What's for dinner?Tests";
+			productReference = 4E07CC3126A0D43B00D2D0D0 /* What's for dinner?Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E07CC1226A0D43A00D2D0D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Ewoud Wortelboer";
+				TargetAttributes = {
+					4E07CC1926A0D43A00D2D0D0 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					4E07CC3026A0D43B00D2D0D0 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 4E07CC1926A0D43A00D2D0D0;
+					};
+				};
+			};
+			buildConfigurationList = 4E07CC1526A0D43A00D2D0D0 /* Build configuration list for PBXProject "What's for dinner?" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E07CC1126A0D43A00D2D0D0;
+			productRefGroup = 4E07CC1B26A0D43A00D2D0D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E07CC1926A0D43A00D2D0D0 /* What's for dinner? */,
+				4E07CC3026A0D43B00D2D0D0 /* What's for dinner?Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E07CC1826A0D43A00D2D0D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E07CC2B26A0D43B00D2D0D0 /* LaunchScreen.storyboard in Resources */,
+				4E07CC2826A0D43B00D2D0D0 /* Assets.xcassets in Resources */,
+				4E07CC2326A0D43A00D2D0D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E07CC2F26A0D43B00D2D0D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A9D78E82A507CC0C0D5949EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-What's for dinner?-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DECCFC74B2C045A6BC0E5A73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-What's for dinner?Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E07CC1626A0D43A00D2D0D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E07CC2626A0D43A00D2D0D0 /* What_s_for_dinner_.xcdatamodeld in Sources */,
+				4E07CC2026A0D43A00D2D0D0 /* ViewController.swift in Sources */,
+				4E07CC1E26A0D43A00D2D0D0 /* AppDelegate.swift in Sources */,
+				4E07CC4426A0D4E900D2D0D0 /* GroceryItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E07CC2D26A0D43B00D2D0D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E07CC3626A0D43B00D2D0D0 /* What_s_for_dinner_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E07CC3326A0D43B00D2D0D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E07CC1926A0D43A00D2D0D0 /* What's for dinner? */;
+			targetProxy = 4E07CC3226A0D43B00D2D0D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E07CC2126A0D43A00D2D0D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E07CC2226A0D43A00D2D0D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E07CC2926A0D43B00D2D0D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E07CC2A26A0D43B00D2D0D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E07CC3826A0D43B00D2D0D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E07CC3926A0D43B00D2D0D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E07CC3B26A0D43B00D2D0D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15CC4DB3A4F8FC4D4ACC2EF8 /* Pods-What's for dinner?.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDG5GUBA3U;
+				INFOPLIST_FILE = "What's for dinner?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WortelboerMedia.What-s-for-dinner-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E07CC3C26A0D43B00D2D0D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C747EE88E04F49504CBA994F /* Pods-What's for dinner?.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDG5GUBA3U;
+				INFOPLIST_FILE = "What's for dinner?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WortelboerMedia.What-s-for-dinner-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E07CC3E26A0D43B00D2D0D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 306AA66E7780D9AEC77AC7F1 /* Pods-What's for dinner?Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDG5GUBA3U;
+				INFOPLIST_FILE = "What's for dinner?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WortelboerMedia.What-s-for-dinner-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/What's for dinner?.app/What's for dinner?";
+			};
+			name = Debug;
+		};
+		4E07CC3F26A0D43B00D2D0D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A76E80ABE265C044ADBC9A91 /* Pods-What's for dinner?Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDG5GUBA3U;
+				INFOPLIST_FILE = "What's for dinner?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WortelboerMedia.What-s-for-dinner-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/What's for dinner?.app/What's for dinner?";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E07CC1526A0D43A00D2D0D0 /* Build configuration list for PBXProject "What's for dinner?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E07CC3826A0D43B00D2D0D0 /* Debug */,
+				4E07CC3926A0D43B00D2D0D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E07CC3A26A0D43B00D2D0D0 /* Build configuration list for PBXNativeTarget "What's for dinner?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E07CC3B26A0D43B00D2D0D0 /* Debug */,
+				4E07CC3C26A0D43B00D2D0D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E07CC3D26A0D43B00D2D0D0 /* Build configuration list for PBXNativeTarget "What's for dinner?Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E07CC3E26A0D43B00D2D0D0 /* Debug */,
+				4E07CC3F26A0D43B00D2D0D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4E07CC2426A0D43A00D2D0D0 /* What_s_for_dinner_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4E07CC2526A0D43A00D2D0D0 /* What_s_for_dinner_.xcdatamodel */,
+			);
+			currentVersion = 4E07CC2526A0D43A00D2D0D0 /* What_s_for_dinner_.xcdatamodel */;
+			path = What_s_for_dinner_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4E07CC1226A0D43A00D2D0D0 /* Project object */;
+}
